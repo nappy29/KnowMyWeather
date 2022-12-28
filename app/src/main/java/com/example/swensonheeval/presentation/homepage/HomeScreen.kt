@@ -23,7 +23,9 @@ import com.example.swensonheeval.R
 import com.example.swensonheeval.presentation.homepage.components.Center
 import com.example.swensonheeval.presentation.homepage.components.Footer
 import com.example.swensonheeval.presentation.homepage.components.Header
-import com.example.swensonheeval.presentation.homepage.components.MainAppBar
+import com.example.swensonheeval.presentation.search_widget.LocationSuggestionViewModel
+import com.example.swensonheeval.presentation.search_widget.SearchWidgetState
+import com.example.swensonheeval.presentation.search_widget.components.MainAppBar
 
 @Composable
 fun HomeScreen(

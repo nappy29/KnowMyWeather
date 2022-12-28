@@ -1,4 +1,4 @@
-package com.example.swensonheeval.presentation.homepage
+package com.example.swensonheeval.presentation.search_widget
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
@@ -8,7 +8,6 @@ import androidx.lifecycle.viewModelScope
 import com.example.swensonheeval.common.Resource
 import com.example.swensonheeval.domain.use_case.get_locations.GetLocationsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject

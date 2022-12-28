@@ -1,6 +1,5 @@
-package com.example.swensonheeval.presentation.homepage.components
+package com.example.swensonheeval.presentation.search_widget.components
 
-import android.util.Log
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -11,9 +10,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.outlined.Search
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -25,7 +21,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.swensonheeval.common.Utils
-import com.example.swensonheeval.presentation.homepage.LocationSuggestionState
+import com.example.swensonheeval.presentation.search_widget.LocationSuggestionState
 
 @Composable
 fun DefaultTopBar(

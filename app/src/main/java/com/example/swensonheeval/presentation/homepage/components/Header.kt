@@ -20,7 +20,7 @@ fun Header(
         modifier = Modifier
             .fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally
-    ){
+    ) {
         Spacer(modifier = Modifier.height(40.dp))
 
         Text(

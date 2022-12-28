@@ -1,12 +1,12 @@
-package com.example.swensonheeval.presentation.homepage.components
+package com.example.swensonheeval.presentation.search_widget.components
 
 import androidx.compose.runtime.Composable
-import com.example.swensonheeval.presentation.homepage.LocationSuggestionState
-import com.example.swensonheeval.presentation.homepage.SearchWidgetState
+import com.example.swensonheeval.presentation.search_widget.LocationSuggestionState
+import com.example.swensonheeval.presentation.search_widget.SearchWidgetState
 
 @Composable
 fun MainAppBar(
-    dateString:String,
+    dateString: String,
     searchWidgetState: SearchWidgetState,
     locationSuggestionState: LocationSuggestionState,
     searchTextState: String,

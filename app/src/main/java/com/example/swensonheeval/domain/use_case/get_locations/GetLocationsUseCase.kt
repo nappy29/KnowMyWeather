@@ -13,18 +13,22 @@ import javax.inject.Inject
 
 class GetLocationsUseCase @Inject constructor(
     private val weatherRepository: WeatherRepository
-){
+) {
 
-    operator fun invoke(q: String): Flow<Resource<List<Location>>> = flow{
+    operator fun invoke(q: String): Flow<Resource<List<Location>>> = flow {
         try {
-            emit(Resource.Loading<List<Location>>())
+            emit(Resource.Loading())
             delay(3000)
             val locations = weatherRepository.getLocations(q).map { it.toLocation() }
-            emit(Resource.Success<List<Location>>(locations))
-        } catch(e: HttpException) {
-            emit(Resource.Error<List<Location>>(e.localizedMessage ?: "An unexpected error occured"))
-        } catch(e: IOException) {
-            emit(Resource.Error<List<Location>>("Couldn't reach server. Check your internet connection."))
+            emit(Resource.Success(data = locations))
+        } catch (e: HttpException) {
+            emit(
+                Resource.Error(
+                    e.localizedMessage ?: "An unexpected error occured"
+                )
+            )
+        } catch (e: IOException) {
+            emit(Resource.Error("Couldn't reach server. Check your internet connection."))
         }
     }
 }

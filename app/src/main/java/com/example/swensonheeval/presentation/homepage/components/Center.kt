@@ -15,9 +15,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.swensonheeval.R
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.example.swensonheeval.R
 import com.example.swensonheeval.domain.model.Day
 
 @Composable
@@ -48,7 +48,7 @@ fun Center(
             )
             Text(
                 text = "${day.tempFah}°F",
-                modifier = Modifier.padding(bottom = 23.dp),
+                modifier = Modifier.padding(bottom = 16.dp),
                 fontSize = 45.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.White
@@ -61,17 +61,17 @@ fun Center(
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(start = 110.dp, end = 110.dp, top = 15.dp),
+                    .padding(start = 90.dp, end = 90.dp, top = 15.dp),
                 horizontalArrangement = Arrangement.SpaceBetween
-            ){
+            ) {
                 Box {
-                    Row{
+                    Row {
                         Image(
                             painterResource(R.drawable.wind_speed),
                             contentDescription = "",
                             contentScale = ContentScale.Fit,
                             modifier = Modifier
-                                .size(23.dp)
+                                .size(21.dp)
                         )
                         Text(
                             text = "${day.mph} mph",
@@ -91,7 +91,7 @@ fun Center(
                             contentDescription = "",
                             contentScale = ContentScale.Fit,
                             modifier = Modifier
-                                .size(23.dp)
+                                .size(21.dp)
                         )
 
                         Text(

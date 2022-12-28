@@ -36,12 +36,8 @@ fun Footer(
             dayElement(days[1].apply {
                 date = "Tomorrow"
             })
-            dayElement(days[2].apply {
-                var d = date
-                date = Utils.changeDateFormat(
-                    currentFormat = "yyyy-MM-dd", requiredFormat = "EEEE", dateString = d
-                )
-            })
+
+            dayElement(days[2], thirdDay = true)
 
         }
     }
@@ -49,7 +45,8 @@ fun Footer(
 
 @Composable
 fun dayElement(
-    day: Day
+    day: Day,
+    thirdDay: Boolean = false
 ) {
     Column(
         verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally
@@ -68,7 +65,13 @@ fun dayElement(
             modifier = Modifier.alpha(ContentAlpha.medium)
         )
         Text(
-            text = day.date,
+            text = if (thirdDay) {
+                Utils.changeDateFormat(
+                    currentFormat = "yyyy-MM-dd",
+                    requiredFormat = "EEEE",
+                    dateString = day.date
+                )
+            } else day.date,
             fontSize = 12.sp,
             color = Color.White,
 

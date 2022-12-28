@@ -1,4 +1,4 @@
-package com.example.swensonheeval.presentation.homepage
+package com.example.swensonheeval.presentation.search_widget
 
 sealed class SearchWidgetState {
     object OPENED : SearchWidgetState()

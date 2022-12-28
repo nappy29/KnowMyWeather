@@ -1,14 +1,11 @@
 package com.example.swensonheeval.presentation.homepage
 
-import android.util.Log
-import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.swensonheeval.common.Resource
 import com.example.swensonheeval.domain.use_case.get_forecast.GetWeatherForecastUseCase
-import com.example.swensonheeval.domain.use_case.get_locations.GetLocationsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
@@ -24,7 +21,7 @@ class WeatherViewModel @Inject constructor(
 
 
     init {
-        getWeatherForecast("Kribi")
+        getWeatherForecast()
     }
 
     fun getWeatherForecast(cityName: String = "San francisco") {

@@ -8,7 +8,10 @@ import retrofit2.http.Query
 interface SwensonHeApi {
 
     @GET("forecast.json")
-    suspend fun getWeatherForecast(@Query("q", encoded = true) q: String, @Query("days", encoded = true) days: Int): ForeCastObjDto
+    suspend fun getWeatherForecast(
+        @Query("q", encoded = true) q: String,
+        @Query("days", encoded = true) days: Int
+    ): ForeCastObjDto
 
 
     @GET("search.json")
