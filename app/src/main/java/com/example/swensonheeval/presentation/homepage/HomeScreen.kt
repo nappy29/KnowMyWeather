@@ -37,7 +37,6 @@ fun HomeScreen(
     val searchWidgetState by locationViewModel.searchWidgetState
     val searchTextState by locationViewModel.searchTextState
 
-//    Log.d("State", state.forcastObject.toString())
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
             modifier = Modifier.fillMaxSize(),
