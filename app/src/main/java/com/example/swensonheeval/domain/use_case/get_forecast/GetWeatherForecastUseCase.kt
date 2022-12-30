@@ -1,7 +1,7 @@
 package com.example.swensonheeval.domain.use_case.get_forecast
 
 import com.example.swensonheeval.common.Resource
-import com.example.swensonheeval.data.remote.dtos.toForecastObject
+import com.example.swensonheeval.data.remote.dto.toForecastObject
 import com.example.swensonheeval.domain.model.ForcastObject
 import com.example.swensonheeval.domain.repository.WeatherRepository
 import kotlinx.coroutines.flow.Flow

@@ -1,8 +1,8 @@
 package com.example.swensonheeval.data.repository
 
 import com.example.swensonheeval.data.remote.SwensonHeApi
-import com.example.swensonheeval.data.remote.dtos.LocationDto
-import com.example.swensonheeval.data.remote.dtos.ForeCastObjDto
+import com.example.swensonheeval.data.remote.dto.LocationDto
+import com.example.swensonheeval.data.remote.dto.ForeCastObjDto
 import com.example.swensonheeval.domain.repository.WeatherRepository
 import javax.inject.Inject
 

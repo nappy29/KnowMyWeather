@@ -1,0 +1,92 @@
+[
+  {
+    "id": 2548047,
+    "name": "Hawaiian Gardens",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.83,
+    "lon": -118.07,
+    "url": "hawaiian-gardens-california-united-states-of-america"
+  },
+  {
+    "id": 2548516,
+    "name": "La Palma",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.85,
+    "lon": -118.05,
+    "url": "la-palma-california-united-states-of-america"
+  },
+  {
+    "id": 2546847,
+    "name": "Cerritos",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.86,
+    "lon": -118.06,
+    "url": "cerritos-california-united-states-of-america"
+  },
+  {
+    "id": 2548768,
+    "name": "Los Alamitos",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.8,
+    "lon": -118.07,
+    "url": "los-alamitos-california-united-states-of-america"
+  },
+  {
+    "id": 2547153,
+    "name": "Cypress",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.82,
+    "lon": -118.04,
+    "url": "cypress-california-united-states-of-america"
+  },
+  {
+    "id": 2546171,
+    "name": "Artesia",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.87,
+    "lon": -118.08,
+    "url": "artesia-california-united-states-of-america"
+  },
+  {
+    "id": 2550157,
+    "name": "Rossmoor",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.79,
+    "lon": -118.08,
+    "url": "rossmoor-california-united-states-of-america"
+  },
+  {
+    "id": 2548591,
+    "name": "Lakewood",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.85,
+    "lon": -118.13,
+    "url": "lakewood-california-united-states-of-america"
+  },
+  {
+    "id": 2546339,
+    "name": "Bellflower",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.88,
+    "lon": -118.12,
+    "url": "bellflower-california-united-states-of-america"
+  },
+  {
+    "id": 2549404,
+    "name": "Norwalk",
+    "region": "California",
+    "country": "United States of America",
+    "lat": 33.9,
+    "lon": -118.08,
+    "url": "norwalk-california-united-states-of-america"
+  }
+]

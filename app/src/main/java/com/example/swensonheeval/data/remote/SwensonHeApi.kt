@@ -1,7 +1,7 @@
 package com.example.swensonheeval.data.remote
 
-import com.example.swensonheeval.data.remote.dtos.ForeCastObjDto
-import com.example.swensonheeval.data.remote.dtos.LocationDto
+import com.example.swensonheeval.data.remote.dto.ForeCastObjDto
+import com.example.swensonheeval.data.remote.dto.LocationDto
 import retrofit2.http.GET
 import retrofit2.http.Query
 

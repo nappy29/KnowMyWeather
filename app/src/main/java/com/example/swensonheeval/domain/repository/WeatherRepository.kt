@@ -1,7 +1,7 @@
 package com.example.swensonheeval.domain.repository
 
-import com.example.swensonheeval.data.remote.dtos.ForeCastObjDto
-import com.example.swensonheeval.data.remote.dtos.LocationDto
+import com.example.swensonheeval.data.remote.dto.ForeCastObjDto
+import com.example.swensonheeval.data.remote.dto.LocationDto
 
 interface WeatherRepository {
 

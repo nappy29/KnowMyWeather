@@ -1,7 +1,7 @@
 package com.example.swensonheeval.domain.use_case.get_locations
 
 import com.example.swensonheeval.common.Resource
-import com.example.swensonheeval.data.remote.dtos.toLocation
+import com.example.swensonheeval.data.remote.dto.toLocation
 import com.example.swensonheeval.domain.model.Location
 import com.example.swensonheeval.domain.repository.WeatherRepository
 import kotlinx.coroutines.delay

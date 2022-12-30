@@ -1,4 +1,4 @@
-package com.example.swensonheeval.data.remote.dtos
+package com.example.swensonheeval.data.remote.dto
 
 
 import com.google.gson.annotations.SerializedName
