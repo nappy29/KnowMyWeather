@@ -1,5 +1,5 @@
-# SwensonHeEvaluation
-This project represents a test task for an Android app by Swenson-He.
+# KnowMyWeather
+This project represents a utilility Android app to allows users know the weather condition of any location in the world
 
 # Project Description
 This project seeks to demonstrate the use of best practices, tools and architecture used in Android development today. It demonstrate the use of all these
